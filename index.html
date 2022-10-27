@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chibrosoft Notepad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header><h1>Chibrosoft Notepad</h1></header>
+    <main>
+        <textarea id="theMain" cols="30" rows="10" placeholder="Your text"></textarea>
+        <br>
+        <br>
+        <form id="saveAs">
+            <div>
+                <label for="fileName">File name: </label>
+                <input type="text" id="fileName" value="myDocument"> .txt
+            </div>
+            <button type="submit">Save</button>
+        </form>
+    </main>
+
+    <br>
+
+    <div id="autosaving"><h3>Autosaving to local browser storage</h3></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
